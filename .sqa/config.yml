@@ -15,62 +15,62 @@ sqa_criteria:
     repos:
       github.com/WORSICA/eosc-worsica-frontend git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-silver-monkey.sh
-        container: qc.acc_snippy-violet-worm
+        - /usr/bin/env sh .sqa/script.flabby-orchid-badger.sh
+        container: qc.acc_hilly-puce-affenpinscher
   QC.Doc:
     repos:
       github.com/WORSICA/eosc-worsica-frontend find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-crimson-oyster.sh
-        container: qc.doc_bumpy-chartreuse-chow
+        - /usr/bin/env sh .sqa/script.muggy-lime-zebu.sh
+        container: qc.doc_freaky-maroon-tarantula
       github.com/WORSICA/eosc-worsica-frontend git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-grey-hyena.sh
-        container: qc.doc_leaky-brass-chameleon
+        - /usr/bin/env sh .sqa/script.crappy-auburn-eel.sh
+        container: qc.doc_cozy-saffron-frigatebird
       github.com/WORSICA/eosc-worsica-frontend markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-teal-tang.sh
-        container: qc.doc_gummy-green-argentino
+        - /usr/bin/env sh .sqa/script.boozy-cream-lizard.sh
+        container: qc.doc_shabby-black-bee
   QC.Lic:
     repos:
       github.com/WORSICA/eosc-worsica-frontend licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-viridian-manatee.sh
-        container: qc.lic_flaky-scarlet-magpie
+        - /usr/bin/env sh .sqa/script.shabby-lemon-ostrich.sh
+        container: qc.lic_thirsty-maroon-saola
   QC.Met:
     repos:
       github.com/WORSICA/eosc-worsica-frontend cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-jade-cuscus.sh
-        container: qc.met_chewy-zucchini-badger
+        - /usr/bin/env sh .sqa/script.foggy-champagne-caterpillar.sh
+        container: qc.met_smelly-myrtle-wolverine
       github.com/WORSICA/eosc-worsica-frontend validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-silver-vulture.sh
-        container: qc.met_jumpy-thistle-weasel
+        - /usr/bin/env sh .sqa/script.gloppy-chartreuse-chinchilla.sh
+        container: qc.met_homey-mauve-cougar
   QC.Sec:
     repos:
       github.com/WORSICA/eosc-worsica-frontend bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-smalt-koala.sh
-        container: qc.sec_seedy-linen-ibis
+        - /usr/bin/env sh .sqa/script.surly-cinnamon-deer.sh
+        container: qc.sec_bumpy-aquamarine-loon
   QC.Sty:
     repos:
       github.com/WORSICA/eosc-worsica-frontend flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-cobalt-gorilla.sh
-        container: qc.sty_lanky-harlequin-duck
+        - /usr/bin/env sh .sqa/script.lumpy-cream-heron.sh
+        container: qc.sty_stuffy-russet-fox
       github.com/WORSICA/eosc-worsica-frontend jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-cobalt-binturong.sh
-        container: qc.sty_skimpy-lime-jackal
+        - /usr/bin/env sh .sqa/script.crabby-thistle-newt.sh
+        container: qc.sty_jumpy-brass-cow
       github.com/WORSICA/eosc-worsica-frontend stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-olive-chinook.sh
-        container: qc.sty_flimsy-burgundy-kudu
+        - /usr/bin/env sh .sqa/script.pretty-ruby-crab.sh
+        container: qc.sty_shabby-pumpkin-mau
   QC.Ver:
     repos:
       github.com/WORSICA/eosc-worsica-frontend get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-sangria-chinook.sh
-        container: qc.ver_messy-razzmatazz-tiger
+        - /usr/bin/env sh .sqa/script.paltry-firebrick-nightingale.sh
+        container: qc.ver_woolly-beige-toucan
 timeout: 1800
