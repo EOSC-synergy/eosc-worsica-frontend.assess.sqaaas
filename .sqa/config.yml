@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.4
+      branch: release/1.7.6
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/WORSICA/eosc-worsica-frontend:
       branch: main
@@ -15,62 +15,62 @@ sqa_criteria:
     repos:
       github.com/WORSICA/eosc-worsica-frontend git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-magnolia-seal.sh
-        container: qc.acc_muggy-wheat-lionfish
+        - /usr/bin/env sh .sqa/script.slimy-aquamarine-ray.sh
+        container: qc.acc_snappy-champagne-chicken
   QC.Doc:
     repos:
       github.com/WORSICA/eosc-worsica-frontend find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-sapphire-numbat.sh
-        container: qc.doc_smelly-white-manatee
+        - /usr/bin/env sh .sqa/script.homely-myrtle-catfish.sh
+        container: qc.doc_gamy-auburn-walrus
       github.com/WORSICA/eosc-worsica-frontend git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-peach-tortoise.sh
-        container: qc.doc_woozy-wisteria-rottweiler
+        - /usr/bin/env sh .sqa/script.woozy-ruby-zebra.sh
+        container: qc.doc_gloppy-mauve-dhole
       github.com/WORSICA/eosc-worsica-frontend markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-linen-eel.sh
-        container: qc.doc_pretty-silver-chicken
+        - /usr/bin/env sh .sqa/script.baggy-silver-argentino.sh
+        container: qc.doc_chewy-magenta-flounder
   QC.Lic:
     repos:
       github.com/WORSICA/eosc-worsica-frontend licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-smalt-lynx.sh
-        container: qc.lic_bumpy-emerald-cow
+        - /usr/bin/env sh .sqa/script.hasty-wheat-emu.sh
+        container: qc.lic_freaky-gold-kiwi
   QC.Met:
     repos:
       github.com/WORSICA/eosc-worsica-frontend cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-asparagus-avocet.sh
-        container: qc.met_wimpy-mauve-slug
+        - /usr/bin/env sh .sqa/script.snazzy-grey-capuchin.sh
+        container: qc.met_bumpy-aqua-millipede
       github.com/WORSICA/eosc-worsica-frontend validate_codemeta:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-tangerine-hummingbird.sh
-        container: qc.met_tasty-rust-toad
+        - /usr/bin/env sh .sqa/script.gamy-silver-kingfisher.sh
+        container: qc.met_dorky-ultramarine-malamute
   QC.Sec:
     repos:
       github.com/WORSICA/eosc-worsica-frontend bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-ruby-coati.sh
-        container: qc.sec_baggy-turquoise-crocodile
+        - /usr/bin/env sh .sqa/script.muggy-mauve-panda.sh
+        container: qc.sec_lovely-bistre-shrimp
   QC.Sty:
     repos:
       github.com/WORSICA/eosc-worsica-frontend flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-puce-russel.sh
-        container: qc.sty_woolly-flax-crab
+        - /usr/bin/env sh .sqa/script.woolly-salmon-robin.sh
+        container: qc.sty_stealthy-eggplant-guppy
       github.com/WORSICA/eosc-worsica-frontend jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-peach-armadillo.sh
-        container: qc.sty_freaky-champagne-labradoodle
+        - /usr/bin/env sh .sqa/script.gloppy-amber-scorpion.sh
+        container: qc.sty_leaky-harlequin-okapi
       github.com/WORSICA/eosc-worsica-frontend stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-violet-buffalo.sh
-        container: qc.sty_grumpy-thistle-whippet
+        - /usr/bin/env sh .sqa/script.cheeky-peach-cheetah.sh
+        container: qc.sty_skanky-maroon-chihuahua
   QC.Ver:
     repos:
       github.com/WORSICA/eosc-worsica-frontend get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-cream-birman.sh
-        container: qc.ver_slaphappy-plum-bongo
+        - /usr/bin/env sh .sqa/script.randy-pumpkin-tortoise.sh
+        container: qc.ver_grumpy-bronze-nightingale
 timeout: 1800
